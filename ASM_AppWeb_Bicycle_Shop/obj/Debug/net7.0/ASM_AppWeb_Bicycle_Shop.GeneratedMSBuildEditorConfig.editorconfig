@@ -84,6 +84,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[G:/PROG/Application Development/Asm_code_webApp/ASM_AppWeb_Bicycle_Shop/ASM_AppWeb_Bicycle_Shop/Views/News/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/PROG/Application Development/Asm_code_webApp/ASM_AppWeb_Bicycle_Shop/ASM_AppWeb_Bicycle_Shop/Views/News/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/PROG/Application Development/Asm_code_webApp/ASM_AppWeb_Bicycle_Shop/ASM_AppWeb_Bicycle_Shop/Views/News/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/PROG/Application Development/Asm_code_webApp/ASM_AppWeb_Bicycle_Shop/ASM_AppWeb_Bicycle_Shop/Views/News/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/PROG/Application Development/Asm_code_webApp/ASM_AppWeb_Bicycle_Shop/ASM_AppWeb_Bicycle_Shop/Views/News/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [G:/PROG/Application Development/Asm_code_webApp/ASM_AppWeb_Bicycle_Shop/ASM_AppWeb_Bicycle_Shop/Views/Products/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -102,6 +122,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [G:/PROG/Application Development/Asm_code_webApp/ASM_AppWeb_Bicycle_Shop/ASM_AppWeb_Bicycle_Shop/Views/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/PROG/Application Development/Asm_code_webApp/ASM_AppWeb_Bicycle_Shop/ASM_AppWeb_Bicycle_Shop/Views/Products/ListProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcTGlzdFByb2R1Y3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [G:/PROG/Application Development/Asm_code_webApp/ASM_AppWeb_Bicycle_Shop/ASM_AppWeb_Bicycle_Shop/Views/Products/ProductDetails.cshtml]
