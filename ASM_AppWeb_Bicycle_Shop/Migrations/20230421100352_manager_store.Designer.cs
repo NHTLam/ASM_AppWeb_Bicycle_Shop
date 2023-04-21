@@ -4,6 +4,7 @@ using ASM_AppWeb_Bicycle_Shop.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ASM_AppWeb_Bicycle_Shop.Migrations
 {
     [DbContext(typeof(ASM_AppWeb_Bicycle_ShopContext))]
-    partial class ASM_AppWeb_Bicycle_ShopContextModelSnapshot : ModelSnapshot
+    [Migration("20230421100352_manager_store")]
+    partial class manager_store
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

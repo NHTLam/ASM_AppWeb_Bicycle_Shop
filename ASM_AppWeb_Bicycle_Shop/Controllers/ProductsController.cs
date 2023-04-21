@@ -274,5 +274,22 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
             }
             return dt;
         }
+
+        public async Task<IActionResult> ProductDetails(int? id)
+        {
+            if (id == null || _context.Product == null)
+            {
+                return NotFound();
+            }
+
+            var product = await _context.Product
+                .FirstOrDefaultAsync(m => m.ProductId == id);
+            if (product == null)
+            {
+                return NotFound();
+            }
+
+            return View(product);
+        }
     }
 }
