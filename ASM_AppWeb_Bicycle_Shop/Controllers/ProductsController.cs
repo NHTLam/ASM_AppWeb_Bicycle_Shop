@@ -16,7 +16,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace ASM_AppWeb_Bicycle_Shop.Controllers
 {
-    [Authorize(Roles = "Admin")]
+
     public class ProductsController : Controller
     {
         private readonly ASM_AppWeb_Bicycle_ShopContext _context;
@@ -45,8 +45,43 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
                           Problem("Entity set 'ASM_Bicycle_ShopsContext.Product'  is null.");
         }
 
+
+        [Authorize(Roles = "Admin,Staff,User")]
+        public async Task<IActionResult> ListProduct()
+        {
+            var data = await _context.Product.ToListAsync();
+            if (data != null & data.Count != 0)
+            {
+                ViewBag.mess = "True";
+            }
+            else
+            {
+                ViewBag.mess = "False";
+            }
+            return _context.Product != null ?
+                          View(data) :
+                          Problem("Entity set 'ASM_Bicycle_ShopsContext.Product'  is null.");
+        }
+
         // GET: Products/Details/5
         public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null || _context.Product == null)
+            {
+                return NotFound();
+            }
+
+            var product = await _context.Product
+                .FirstOrDefaultAsync(m => m.ProductId == id);
+            if (product == null)
+            {
+                return NotFound();
+            }
+
+            return View(product);
+        }
+
+        public async Task<IActionResult> ProductDetails(int? id)
         {
             if (id == null || _context.Product == null)
             {

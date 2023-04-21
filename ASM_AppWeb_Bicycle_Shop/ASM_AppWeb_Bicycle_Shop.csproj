@@ -11,7 +11,6 @@
     <None Include="Views\Products\Details.cshtml" />
     <None Include="Views\Products\Edit.cshtml" />
     <None Include="Views\Products\Index.cshtml" />
-    <None Include="wwwroot\js\site.js" />
   </ItemGroup>
 
   <ItemGroup>
@@ -32,6 +31,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="wwwroot\a\fonts\" />
     <Folder Include="wwwroot\UploadImg\" />
   </ItemGroup>
 

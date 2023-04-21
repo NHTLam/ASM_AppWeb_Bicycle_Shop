@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop.csproj": {}
+    "D:\\abc\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop.csproj": {}
   },
   "projects": {
-    "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop.csproj": {
+    "D:\\abc\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop.csproj",
+        "projectUniqueName": "D:\\abc\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop.csproj",
         "projectName": "ASM_AppWeb_Bicycle_Shop",
-        "projectPath": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\obj\\",
+        "projectPath": "D:\\abc\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop.csproj",
+        "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
+        "outputPath": "D:\\abc\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -101,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using ASM_Bicycle_Shops.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+using ASM_AppWeb_Bicycle_Shop.Models;
 
 namespace ASM_AppWeb_Bicycle_Shop.Data
 {
@@ -19,5 +20,7 @@ namespace ASM_AppWeb_Bicycle_Shop.Data
         public DbSet<ASM_Bicycle_Shops.Models.Product> Product { get; set; } = default!;
 
         public DbSet<ASM_Bicycle_Shops.Models.CategoryProduct> CategoryProduct { get; set; } = default!;
+
+        public DbSet<ASM_AppWeb_Bicycle_Shop.Models.News> News { get; set; } = default!;
     }
 }
