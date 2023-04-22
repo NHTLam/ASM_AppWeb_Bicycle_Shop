@@ -22,6 +22,40 @@ namespace ASM_AppWeb_Bicycle_Shop.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("ASM_AppWeb_Bicycle_Shop.Models.News", b =>
+                {
+                    b.Property<int>("NewsId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("NewsId"));
+
+                    b.Property<string>("EmpFileName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("EmpPhotoPath")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NewsAuthor")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NewsContent")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("NewsDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("NewsTitle")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("NewsId");
+
+                    b.ToTable("News");
+                });
+
             modelBuilder.Entity("ASM_AppWeb_Bicycle_Shop.Models.Shop", b =>
                 {
                     b.Property<int>("Id")
@@ -44,11 +78,8 @@ namespace ASM_AppWeb_Bicycle_Shop.Migrations
                     b.Property<DateTime>("Purchase_date")
                         .HasColumnType("datetime2");
 
-                    b.Property<decimal>("Quantity")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<decimal>("TotalRevenue")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 

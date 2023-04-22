@@ -29,6 +29,21 @@ namespace ASM_AppWeb_Bicycle_Shop.Data
                 await userManager.CreateAsync(user, "Admin@123");
                 await userManager.AddToRoleAsync(user, Roles.Admin.ToString());
             }
+
+            // creating staff
+            var staff = new IdentityUser
+            {
+                UserName = "Staff@gmail.com",
+                Email = "Staff@gmail.com",
+                EmailConfirmed = true,
+                PhoneNumberConfirmed = true
+            };
+            var userInDb2 = await userManager.FindByEmailAsync(staff.Email);
+            if (userInDb2 == null)
+            {
+                await userManager.CreateAsync(staff, "Staff@123");
+                await userManager.AddToRoleAsync(staff, Roles.Staff.ToString());
+            }
         }
     }
 }

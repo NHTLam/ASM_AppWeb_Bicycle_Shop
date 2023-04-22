@@ -7,12 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ASM_AppWeb_Bicycle_Shop.Data;
 using ASM_AppWeb_Bicycle_Shop.Models;
-using ClosedXML.Excel;
-using System.Reflection;
-using System.Data;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ASM_AppWeb_Bicycle_Shop.Controllers
 {
+    [Authorize(Roles ="Admin")]
     public class ShopsController : Controller
     {
         private readonly ASM_AppWeb_Bicycle_ShopContext _context;
@@ -28,24 +27,6 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
               return _context.Shop != null ? 
                           View(await _context.Shop.ToListAsync()) :
                           Problem("Entity set 'ASM_AppWeb_Bicycle_ShopContext.Shop'  is null.");
-        }
-
-        // GET: Shops/Details/5
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null || _context.Shop == null)
-            {
-                return NotFound();
-            }
-
-            var shop = await _context.Shop
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (shop == null)
-            {
-                return NotFound();
-            }
-
-            return View(shop);
         }
 
         // GET: Shops/Create
@@ -161,52 +142,6 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
         private bool ShopExists(int id)
         {
           return (_context.Shop?.Any(e => e.Id == id)).GetValueOrDefault();
-        }
-
-        public IActionResult ExportExcel()
-        {
-            try
-            {
-                var data = _context.Product.ToList();
-                if (data != null)
-                {
-                    using (XLWorkbook wb = new XLWorkbook())
-                    {
-                        wb.Worksheets.Add(ToConvertDataTable(data.ToList()));
-                        using (MemoryStream stream = new MemoryStream())
-                        {
-                            wb.SaveAs(stream);
-                            string fileName = $"Product_{DateTime.Now.ToString("dd/MM/yyyy")}.xlsx";
-                            return File(stream.ToArray(), "application/vnd.openxmlformats-officedocuments.spreadsheetml.sheet", fileName);
-                        }
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-
-            }
-            return RedirectToAction(nameof(Index));
-        }
-
-        public DataTable ToConvertDataTable<T>(List<T> items)
-        {
-            DataTable dt = new DataTable(typeof(T).Name);
-            PropertyInfo[] propInfo = typeof(T).GetProperties(BindingFlags.Public | BindingFlags.Instance);
-            foreach (PropertyInfo prop in propInfo)
-            {
-                dt.Columns.Add(prop.Name);
-            }
-            foreach (T item in items)
-            {
-                var value = new object[propInfo.Length];
-                for (int i = 0; i < propInfo.Length; i++)
-                {
-                    value[i] = propInfo[i].GetValue(item, null);
-                }
-                dt.Rows.Add(value);
-            }
-            return dt;
         }
     }
 }

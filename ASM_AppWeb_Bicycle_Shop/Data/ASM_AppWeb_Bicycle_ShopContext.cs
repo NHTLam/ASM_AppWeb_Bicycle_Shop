@@ -22,5 +22,6 @@ namespace ASM_AppWeb_Bicycle_Shop.Data
         public DbSet<ASM_Bicycle_Shops.Models.CategoryProduct> CategoryProduct { get; set; } = default!;
 
         public DbSet<ASM_AppWeb_Bicycle_Shop.Models.Shop> Shop { get; set; } = default!;
+        public DbSet<ASM_AppWeb_Bicycle_Shop.Models.News> News { get; set; } = default!;
     }
 }

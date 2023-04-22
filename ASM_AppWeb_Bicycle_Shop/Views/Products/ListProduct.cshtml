@@ -4,7 +4,6 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-
 <!-- bootstrap css -->
 <link rel="stylesheet" type="text/css" href="~/a/css/bootstrap.min.css">
 <!-- style css -->
@@ -68,24 +67,24 @@
         </div>
         @foreach(var i in Model)
         {           
-        <div class="product_section_2 layout_padding">
-            <div class="row">
-                <div class="col-lg-3 col-sm-6">
-                    <div class="product_box">
-                        <h4 class="bursh_text">@i.ProductName</h4>
-                        <img src="~/a/images/img-1.png" class="image_1">
-                        <div class="btn_main">
-                            <div class="buy_bt">
-                                <ul>
-                                    <li class="active"><a href="~/a/css">Buy Now</a></li>
-                                </ul>
+            <div class="product_section_2 layout_padding">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="product_box">
+                            <h4 class="bursh_text">@i.ProductName</h4>
+                            <img src="~/a/images/img-1.png" class="image_1">
+                            <div class="btn_main">
+                                <div class="buy_bt">
+                                    <ul>
+                                        <li class="active"><a asp-controller="Cart" asp-action="Add" asp-route-id="@i.ProductId">Add to cart</a></li>
+                                    </ul>
+                                </div>
+                                <h3 class="price_text">@i.ProductPrice</h3>
                             </div>
-                            <h3 class="price_text">@i.ProductPrice</h3>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
         }
     </div>
 </div>
@@ -112,22 +111,3 @@
     }
 </script>
 <!-- /.container-fluid -->
-netdna.bootstrapcdn.com
-Dũng
-Ninh Dũng
-public async Task<IActionResult> ProductDetails(int? id)
-        {
-            if (id == null || _context.Product == null)
-            {
-                return NotFound();
-            }
-
-            var product = await _context.Product
-                .FirstOrDefaultAsync(m => m.ProductId == id);
-            if (product == null)
-            {
-                return NotFound();
-            }
-
-            return View(product);
-        }

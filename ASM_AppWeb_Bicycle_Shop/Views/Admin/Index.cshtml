@@ -1,6 +1,7 @@
 ﻿@{
     Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 }
+
 <!-- Page Heading -->
 <div class="d-sm-flex align-items-center justify-content-between mb-4">
     <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
@@ -17,7 +18,7 @@
                         <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
                             Earnings (Monthly)
                         </div>
-                        <div class="h5 mb-0 font-weight-bold text-gray-800">$0</div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">$@ViewBag.monthlyRevenue</div>
                     </div>
                     <div class="col-auto">
                         <i class="fas fa-calendar fa-2x text-gray-300"></i>
@@ -36,7 +37,7 @@
                         <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
                             Earnings (Annual)
                         </div>
-                        <div class="h5 mb-0 font-weight-bold text-gray-800">$0</div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">$@ViewBag.earningAnnual</div>
                     </div>
                     <div class="col-auto">
                         <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
@@ -53,7 +54,7 @@
                 <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
                         <div class="text-xs font-weight-bold text-info text-uppercase mb-1">
-                            Tasks
+                            Event progress
                         </div>
                         <div class="row no-gutters align-items-center">
                             <div class="col-auto">
@@ -161,3 +162,51 @@
 
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <script src="~/js/Chart.js"></script>
+
+@*@section scripts{
+    <script type="text/javascript">
+        function getdata() {
+            $.ajax({
+                type: "GET",
+                url: '@Url.Action("GetData","Admin")',
+                dataType: "json",
+            }).done(function DataForBar(data) {
+                const dataBar = [
+                    ['Months', 'Earnings'],
+                    ["January", data[0],
+                    ["February", data[1]],
+                    ["March", data[2]],
+                    ["April", data[3]],
+                    ["May", data[4]],
+                    ["June", data[5]],
+                    ["July", data[6]],
+                    ["August", data[7]],
+                    ["September", data[8]],
+                    ["October", data[9]],
+                    ["November", data[10]],
+                    ['December', data[11]]
+                ];
+                var PassData = new google.visualization.arrayToDataTable(dataBar);
+            });
+            return PassData;
+        }
+
+        function drawStuff() {
+            var data = getdata();
+
+            var options = {
+                legend: { position: 'none' },
+                axes: {
+                    x: {
+                        0: { side: 'bottom', label: 'Month' } // Top x-axis.
+                    }
+                },
+                bar: { groupWidth: "100%" }
+            };
+
+            var chart = new google.charts.Bar(document.getElementById('top_x_div'));
+            // Convert the Classic options to Material options.
+            chart.draw(data, google.charts.Bar.convertOptions(options));
+        };
+    </script>
+}*@

@@ -16,7 +16,6 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace ASM_AppWeb_Bicycle_Shop.Controllers
 {
-    [Authorize(Roles = "Admin")]
     public class ProductsController : Controller
     {
         private readonly ASM_AppWeb_Bicycle_ShopContext _context;
@@ -28,6 +27,7 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
             webHostEnvironment = hostEnvironment;
         }
 
+        [Authorize(Roles= "Admin")]
         // GET: Products
         public async Task<IActionResult> Index()
         {
@@ -45,6 +45,24 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
                           Problem("Entity set 'ASM_Bicycle_ShopsContext.Product'  is null.");
         }
 
+        [Authorize]
+        public async Task<IActionResult> ListProduct()
+        {
+            var data = await _context.Product.ToListAsync();
+            if (data != null & data.Count != 0)
+            {
+                ViewBag.mess = "True";
+            }
+            else
+            {
+                ViewBag.mess = "False";
+            }
+            return _context.Product != null ?
+                          View(data) :
+                          Problem("Entity set 'ASM_Bicycle_ShopsContext.Product'  is null.");
+        }
+
+        [Authorize(Roles = "Admin")]
         // GET: Products/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -63,6 +81,25 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
             return View(product);
         }
 
+        [Authorize]
+        public async Task<IActionResult> ProductDetails(int? id)
+        {
+            if (id == null || _context.Product == null)
+            {
+                return NotFound();
+            }
+
+            var product = await _context.Product
+                .FirstOrDefaultAsync(m => m.ProductId == id);
+            if (product == null)
+            {
+                return NotFound();
+            }
+
+            return View(product);
+        }
+
+        [Authorize(Roles = "Admin")]
         // GET: Products/Create
         public IActionResult Create()
         {
@@ -75,6 +112,7 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Create([Bind("ProductId,ProductName,ProductPrice,ProductPriceSale,ProductDecription,CategoryName,Status,ImageFile")] Product product)
         {
             string uniqueFileName = null;
@@ -105,6 +143,7 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
         }
 
         // GET: Products/Edit/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Product == null)
@@ -127,6 +166,7 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int id, [Bind("ProductId,ProductName,ProductPrice,ProductPriceSale,ProductDecription,CategoryName,Status,ImageFile")] Product product)
         {
             if (id != product.ProductId)
@@ -177,6 +217,7 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
         }
 
         // GET: Products/Delete/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Product == null)
@@ -195,6 +236,7 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
         }
 
         // POST: Products/Delete/5
+        [Authorize(Roles = "Admin")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
@@ -228,7 +270,7 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
             }
             return categoryName;
         }
-
+        [Authorize(Roles = "Admin")]
         public IActionResult ExportExcel()
         {
             try
@@ -273,23 +315,6 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
                 dt.Rows.Add(value);
             }
             return dt;
-        }
-
-        public async Task<IActionResult> ProductDetails(int? id)
-        {
-            if (id == null || _context.Product == null)
-            {
-                return NotFound();
-            }
-
-            var product = await _context.Product
-                .FirstOrDefaultAsync(m => m.ProductId == id);
-            if (product == null)
-            {
-                return NotFound();
-            }
-
-            return View(product);
         }
     }
 }

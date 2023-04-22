@@ -12,23 +12,15 @@ namespace ASM_AppWeb_Bicycle_Shop.Models
         [Required]
         public decimal ProductPrice { get; set; }
         [Required]
-        public decimal Quantity { get; set; }
+        public int Quantity { get; set; }
         [Required]
         public string CustomerName { get; set; }
         [Required]
         public DateTime Purchase_date { get; set; }
         [Required]
-        public decimal TotalRevenue { get; set; }
-
-        public Shop(int id, string productName, decimal productPrice, decimal quantity, string customerName, DateTime purchase_date)
+        public decimal TotalRevenue
         {
-            Id = id;
-            ProductName = productName;
-            ProductPrice = productPrice;
-            Quantity = quantity;
-            CustomerName = customerName;
-            Purchase_date = purchase_date;
-            TotalRevenue = productPrice*quantity;
+            get { return Quantity * ProductPrice; }
         }
     }
 }

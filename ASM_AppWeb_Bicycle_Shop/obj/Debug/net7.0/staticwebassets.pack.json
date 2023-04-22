@@ -5,6 +5,26 @@
       "PackagePath": "staticwebassets\\ASM_AppWeb_Bicycle_Shop.bundle.scp.css"
     },
     {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\UploadImg\\0a3c90ae-f8ae-4625-b38c-4f3dd72297c9_vuong-quoc-anh.jpg",
+      "PackagePath": "staticwebassets\\UploadImg\\0a3c90ae-f8ae-4625-b38c-4f3dd72297c9_vuong-quoc-anh.jpg"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\UploadImg\\1848d036-7ad1-4bdd-957d-d71ee231c546_vuong-quoc-anh.jpg",
+      "PackagePath": "staticwebassets\\UploadImg\\1848d036-7ad1-4bdd-957d-d71ee231c546_vuong-quoc-anh.jpg"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\UploadImg\\1ee6bd41-e64a-415b-9e93-8449c1ab50c5_img-2.png",
+      "PackagePath": "staticwebassets\\UploadImg\\1ee6bd41-e64a-415b-9e93-8449c1ab50c5_img-2.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\UploadImg\\24c816b1-083f-45b2-83ab-a7ee08cc49d3_img-2.png",
+      "PackagePath": "staticwebassets\\UploadImg\\24c816b1-083f-45b2-83ab-a7ee08cc49d3_img-2.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\UploadImg\\2b05bf57-a623-4349-a899-461927b51ba6_vuong-quoc-anh.jpg",
+      "PackagePath": "staticwebassets\\UploadImg\\2b05bf57-a623-4349-a899-461927b51ba6_vuong-quoc-anh.jpg"
+    },
+    {
       "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\UploadImg\\2cc5a622-ee31-40a3-8067-207e1f4c5ef2_R.jpg",
       "PackagePath": "staticwebassets\\UploadImg\\2cc5a622-ee31-40a3-8067-207e1f4c5ef2_R.jpg"
     },
@@ -25,28 +45,540 @@
       "PackagePath": "staticwebassets\\UploadImg\\6f2e03fc-fa25-4f5e-b792-d178b6058e7d_OIP.jpg"
     },
     {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\UploadImg\\7b69c52e-a1ec-4673-8fe8-c7b9575d3ee4_vuong-quoc-anh.jpg",
+      "PackagePath": "staticwebassets\\UploadImg\\7b69c52e-a1ec-4673-8fe8-c7b9575d3ee4_vuong-quoc-anh.jpg"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\UploadImg\\b49e29fb-043e-49f5-87c0-6a35514f8c26_vuong-quoc-anh.jpg",
+      "PackagePath": "staticwebassets\\UploadImg\\b49e29fb-043e-49f5-87c0-6a35514f8c26_vuong-quoc-anh.jpg"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\UploadImg\\c5d21686-0efc-4cd5-b8de-e1540e57875a_img-2.png",
+      "PackagePath": "staticwebassets\\UploadImg\\c5d21686-0efc-4cd5-b8de-e1540e57875a_img-2.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\UploadImg\\d883f343-113c-4afd-bfb6-5b067398509e_vuong-quoc-anh.jpg",
+      "PackagePath": "staticwebassets\\UploadImg\\d883f343-113c-4afd-bfb6-5b067398509e_vuong-quoc-anh.jpg"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\UploadImg\\e78018ca-3b12-4f33-956e-c8303885ce67_img-2.png",
+      "PackagePath": "staticwebassets\\UploadImg\\e78018ca-3b12-4f33-956e-c8303885ce67_img-2.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\UploadImg\\e8198dd3-bcc7-474b-9516-a0c128903129_vuong-quoc-anh.jpg",
+      "PackagePath": "staticwebassets\\UploadImg\\e8198dd3-bcc7-474b-9516-a0c128903129_vuong-quoc-anh.jpg"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\css\\.DS_Store",
+      "PackagePath": "staticwebassets\\a\\css\\.DS_Store"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\css\\animate.min.css",
+      "PackagePath": "staticwebassets\\a\\css\\animate.min.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\a\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\a\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\a\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\a\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\a\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\a\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\a\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\a\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\a\\css\\bootstrap.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\a\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\a\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\a\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\css\\default-skin.css",
+      "PackagePath": "staticwebassets\\a\\css\\default-skin.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\a\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\css\\icomoon.css",
+      "PackagePath": "staticwebassets\\a\\css\\icomoon.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\css\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\a\\css\\jquery-ui.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\css\\jquery.fancybox.min.css",
+      "PackagePath": "staticwebassets\\a\\css\\jquery.fancybox.min.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\css\\jquery.mCustomScrollbar.min.css",
+      "PackagePath": "staticwebassets\\a\\css\\jquery.mCustomScrollbar.min.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\css\\meanmenu.css",
+      "PackagePath": "staticwebassets\\a\\css\\meanmenu.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\a\\css\\nice-select.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\a\\css\\normalize.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\a\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\a\\css\\responsive.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\css\\slick.css",
+      "PackagePath": "staticwebassets\\a\\css\\slick.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\css\\style.css",
+      "PackagePath": "staticwebassets\\a\\css\\style.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\images\\about-img.png",
+      "PackagePath": "staticwebassets\\a\\images\\about-img.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\images\\background1.png",
+      "PackagePath": "staticwebassets\\a\\images\\background1.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\images\\bag-icon.png",
+      "PackagePath": "staticwebassets\\a\\images\\bag-icon.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\images\\banner-bg.png",
+      "PackagePath": "staticwebassets\\a\\images\\banner-bg.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\images\\banner-img.png",
+      "PackagePath": "staticwebassets\\a\\images\\banner-img.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\images\\call-icon.png",
+      "PackagePath": "staticwebassets\\a\\images\\call-icon.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\images\\client-img.png",
+      "PackagePath": "staticwebassets\\a\\images\\client-img.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\images\\footer-logo.png",
+      "PackagePath": "staticwebassets\\a\\images\\footer-logo.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\images\\img-1.png",
+      "PackagePath": "staticwebassets\\a\\images\\img-1.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\images\\img-10.png",
+      "PackagePath": "staticwebassets\\a\\images\\img-10.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\images\\img-11.png",
+      "PackagePath": "staticwebassets\\a\\images\\img-11.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\images\\img-12.png",
+      "PackagePath": "staticwebassets\\a\\images\\img-12.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\images\\img-2.png",
+      "PackagePath": "staticwebassets\\a\\images\\img-2.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\images\\img-3.png",
+      "PackagePath": "staticwebassets\\a\\images\\img-3.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\images\\img-4.png",
+      "PackagePath": "staticwebassets\\a\\images\\img-4.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\images\\img-5.png",
+      "PackagePath": "staticwebassets\\a\\images\\img-5.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\images\\img-6.png",
+      "PackagePath": "staticwebassets\\a\\images\\img-6.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\images\\img-7.png",
+      "PackagePath": "staticwebassets\\a\\images\\img-7.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\images\\img-8.png",
+      "PackagePath": "staticwebassets\\a\\images\\img-8.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\images\\img-9.png",
+      "PackagePath": "staticwebassets\\a\\images\\img-9.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\images\\logo.png",
+      "PackagePath": "staticwebassets\\a\\images\\logo.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\images\\mail-icon.png",
+      "PackagePath": "staticwebassets\\a\\images\\mail-icon.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\images\\map-icon.png",
+      "PackagePath": "staticwebassets\\a\\images\\map-icon.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\images\\search-icon.png",
+      "PackagePath": "staticwebassets\\a\\images\\search-icon.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\images\\toggle-icon.png",
+      "PackagePath": "staticwebassets\\a\\images\\toggle-icon.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\images\\user-icon.png",
+      "PackagePath": "staticwebassets\\a\\images\\user-icon.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\js\\.DS_Store",
+      "PackagePath": "staticwebassets\\a\\js\\.DS_Store"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\a\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\a\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\a\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\a\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\a\\js\\bootstrap.js"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\a\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\a\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\a\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\js\\custom.js",
+      "PackagePath": "staticwebassets\\a\\js\\custom.js"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\js\\jquery-3.0.0.min.js",
+      "PackagePath": "staticwebassets\\a\\js\\jquery-3.0.0.min.js"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\js\\jquery.mCustomScrollbar.concat.min.js",
+      "PackagePath": "staticwebassets\\a\\js\\jquery.mCustomScrollbar.concat.min.js"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\a\\js\\jquery.min.js"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\js\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\a\\js\\jquery.validate.js"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\js\\modernizer.js",
+      "PackagePath": "staticwebassets\\a\\js\\modernizer.js"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\js\\plugin.js",
+      "PackagePath": "staticwebassets\\a\\js\\plugin.js"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\a\\js\\popper.min.js"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\a\\js\\slider-setting.js",
+      "PackagePath": "staticwebassets\\a\\js\\slider-setting.js"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\css\\.DS_Store",
+      "PackagePath": "staticwebassets\\css\\.DS_Store"
+    },
+    {
       "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\css\\Form.css",
       "PackagePath": "staticwebassets\\css\\Form.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\css\\animate.min.css",
+      "PackagePath": "staticwebassets\\css\\animate.min.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\css\\default-skin.css",
+      "PackagePath": "staticwebassets\\css\\default-skin.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\css\\icomoon.css",
+      "PackagePath": "staticwebassets\\css\\icomoon.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\css\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\css\\jquery-ui.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\css\\jquery.fancybox.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery.fancybox.min.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\css\\jquery.mCustomScrollbar.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery.mCustomScrollbar.min.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\css\\meanmenu.css",
+      "PackagePath": "staticwebassets\\css\\meanmenu.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\css\\nice-select.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\css\\normalize.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
     },
     {
       "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\css\\sb-admin-2.css",
       "PackagePath": "staticwebassets\\css\\sb-admin-2.css"
     },
     {
-      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\css\\sb-admin-2.min.css",
-      "PackagePath": "staticwebassets\\css\\sb-admin-2.min.css"
-    },
-    {
       "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\css\\slick.css",
+      "PackagePath": "staticwebassets\\css\\slick.css"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
       "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\icons\\daypilot.svg",
+      "PackagePath": "staticwebassets\\icons\\daypilot.svg"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\img\\about-bg.png",
+      "PackagePath": "staticwebassets\\img\\about-bg.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\img\\call-icon.png",
+      "PackagePath": "staticwebassets\\img\\call-icon.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\img\\client-img.png",
+      "PackagePath": "staticwebassets\\img\\client-img.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\img\\fb-icon.png",
+      "PackagePath": "staticwebassets\\img\\fb-icon.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\img\\fb-icon1.png",
+      "PackagePath": "staticwebassets\\img\\fb-icon1.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\img\\img-1.png",
+      "PackagePath": "staticwebassets\\img\\img-1.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\img\\img-2.png",
+      "PackagePath": "staticwebassets\\img\\img-2.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\img\\img-3.png",
+      "PackagePath": "staticwebassets\\img\\img-3.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\img\\img-4.png",
+      "PackagePath": "staticwebassets\\img\\img-4.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\img\\img-5.png",
+      "PackagePath": "staticwebassets\\img\\img-5.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\img\\img-6.png",
+      "PackagePath": "staticwebassets\\img\\img-6.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\img\\img-7.png",
+      "PackagePath": "staticwebassets\\img\\img-7.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\img\\img-8.png",
+      "PackagePath": "staticwebassets\\img\\img-8.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\img\\instagram-icon.png",
+      "PackagePath": "staticwebassets\\img\\instagram-icon.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\img\\linkedin-icon.png",
+      "PackagePath": "staticwebassets\\img\\linkedin-icon.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\img\\mail-icon.png",
+      "PackagePath": "staticwebassets\\img\\mail-icon.png"
+    },
+    {
       "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\img\\main_logo.jpg",
       "PackagePath": "staticwebassets\\img\\main_logo.jpg"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\img\\map-icon.png",
+      "PackagePath": "staticwebassets\\img\\map-icon.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\img\\quote-icon.png",
+      "PackagePath": "staticwebassets\\img\\quote-icon.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\img\\search-icon.png",
+      "PackagePath": "staticwebassets\\img\\search-icon.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\img\\toggle-icon.png",
+      "PackagePath": "staticwebassets\\img\\toggle-icon.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\img\\toggle-icon1.png",
+      "PackagePath": "staticwebassets\\img\\toggle-icon1.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\img\\trolly-icon.png",
+      "PackagePath": "staticwebassets\\img\\trolly-icon.png"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\img\\twitter-icon.png",
+      "PackagePath": "staticwebassets\\img\\twitter-icon.png"
     },
     {
       "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\img\\undraw_posting_photo.svg",
@@ -73,24 +605,92 @@
       "PackagePath": "staticwebassets\\img\\undraw_rocket.svg"
     },
     {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\js\\.DS_Store",
+      "PackagePath": "staticwebassets\\js\\.DS_Store"
+    },
+    {
       "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\js\\Chart.js",
       "PackagePath": "staticwebassets\\js\\Chart.js"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
     },
     {
       "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\js\\demo\\datatables-demo.js",
       "PackagePath": "staticwebassets\\js\\demo\\datatables-demo.js"
     },
     {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\js\\jquery-3.0.0.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.0.0.min.js"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\js\\jquery.mCustomScrollbar.concat.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.mCustomScrollbar.concat.min.js"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\js\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\js\\jquery.validate.js"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\js\\modernizer.js",
+      "PackagePath": "staticwebassets\\js\\modernizer.js"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\js\\plugin.js",
+      "PackagePath": "staticwebassets\\js\\plugin.js"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
+    },
+    {
       "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\js\\sb-admin-2.js",
       "PackagePath": "staticwebassets\\js\\sb-admin-2.js"
     },
     {
-      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\js\\sb-admin-2.min.js",
-      "PackagePath": "staticwebassets\\js\\sb-admin-2.min.js"
-    },
-    {
       "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\js\\slider-setting.js",
+      "PackagePath": "staticwebassets\\js\\slider-setting.js"
     },
     {
       "Id": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\wwwroot\\lib\\bootstrap\\LICENSE",
