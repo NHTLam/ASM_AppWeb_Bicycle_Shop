@@ -4,6 +4,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ASM_AppWeb_Bicycle_Shop.Models
 {
+
+
     public class News
     {
 

@@ -1,4 +1,4 @@
-﻿
+﻿@model ASM_Bicycle_Shops.Models.Product
 @{
     ViewData["Title"] = "ProductDetails";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -6,3 +6,124 @@
 
 <h1>ProductDetails</h1>
 
+
+
+<!--font-family-->
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+
+<!-- title of site -->
+<title>Product Details</title>
+
+<!-- For favicon png -->
+<link rel="shortcut icon" type="image/icon" href="~/assets/logo/favicon.png" />
+
+<!--font-awesome.min.css-->
+<link rel="stylesheet" href="~/assets/css/font-awesome.min.css">
+
+<!--linear icon css-->
+<link rel="stylesheet" href="~/assets/css/linearicons.css">
+
+<!--animate.css-->
+<link rel="stylesheet" href="~/assets/css/animate.css">
+
+<!--owl.carousel.css-->
+<link rel="stylesheet" href="~/assets/css/owl.carousel.min.css">
+<link rel="stylesheet" href="~/assets/css/owl.theme.default.min.css">
+
+<!--bootstrap.min.css-->
+<link rel="stylesheet" href="~/assets/css/bootstrap.min.css">
+
+<!-- bootsnav -->
+<link rel="stylesheet" href="~/assets/css/bootsnav.css">
+
+<!--style.css-->
+<link rel="stylesheet" href="~/assets/css/style.css">
+
+<!--responsive.css-->
+<link rel="stylesheet" href="~/assets/css/responsive.css">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+
+
+
+<header id="home" class="welcome-hero">
+
+	<div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+
+		<!--/.carousel-inner -->
+		<div class="carousel-inner" role="listbox">
+			<!-- .item -->
+			<div class="item active">
+				<div class="single-slide-item slide1">
+					<div class="container">
+						<div class="welcome-hero-content">
+							<div class="row">
+								<div class="col-sm-7">
+									<div class="single-welcome-hero">
+										<div class="welcome-hero-txt">
+											<h4>@Model.ProductName</h4>
+											
+										
+											<div class="packages-price">
+												<p>
+														$@Model.ProductPrice
+													<del>$@Model.ProductPriceSale</del>
+												</p>
+											</div>
+											<button class="btn-cart welcome-add-cart" onclick="window.location.href='#'">
+												<span class="lnr lnr-plus-circle"></span>
+												add <span>to</span> cart
+											</button>
+										</div><!--/.welcome-hero-txt-->
+									</div><!--/.single-welcome-hero-->
+								</div><!--/.col-->
+								<div class="col-sm-5">
+									<div class="single-welcome-hero">
+										<div class="welcome-hero-img">
+												<td>
+													<img src="@Url.Content("~/UploadImg/" + Model.EmpFileName)"">
+												</td>
+										</div><!--/.welcome-hero-txt-->
+									</div><!--/.single-welcome-hero-->
+								</div><!--/.col-->
+							</div><!--/.row-->
+						</div><!--/.welcome-hero-content-->
+					</div><!-- /.container-->
+				</div><!-- /.single-slide-item-->
+
+			</div><!-- /.item .active-->
+
+		</div>
+	</div>
+	}
+</header>
+
+
+
+
+<script src="~/assets/js/jquery.js"></script>
+
+<!--modernizr.min.js-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+<!--bootstrap.min.js-->
+<script src="~/assets/js/bootstrap.min.js"></script>
+
+<!-- bootsnav js -->
+<script src="~/assets/js/bootsnav.js"></script>
+
+<!--owl.carousel.js-->
+<script src="~/assets/js/owl.carousel.min.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+
+<!--Custom JS-->
+<script src="assets/js/custom.js"></script>

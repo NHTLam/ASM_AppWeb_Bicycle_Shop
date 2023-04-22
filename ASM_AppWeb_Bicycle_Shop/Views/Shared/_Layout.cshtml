@@ -59,6 +59,14 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Orders" asp-action="Index">Order</a>
 
                         </li>
+
+                        <li>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="News" asp-action="NewsUser">News</a>
+
+                        </li>
+
+                       
+
                     </ul>
                     <partial name="_LoginPartial" />
                 </div>
@@ -68,24 +76,28 @@
     @RenderBody()
     <!-- news section end -->
     <!-- footer section start -->
-    <div class="footer_section layout_padding">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-4 col-sm-12">
-                    <div class="call_text"><a href="#"><img src="~/img/map-icon.png"><span class="padding_left_0">Page when looking at its layout</span></a></div>
-                    <div class="call_text"><a href="#"><img src="~/img/call-icon.png"><span class="padding_left_0">Call Now  0345678999</span></a></div>
-                    <div class="call_text"><a href="#"><img src="~/img/mail-icon.png"><span class="padding_left_0">Bicycle@gmail.com</span></a></div>
-                    <div class="social_icon">
-                        <ul>
-                            <li><a href="#"><img src="~/img/fb-icon1.png"></a></li>
-                            <li><a href="#"><img src="~/img/twitter-icon.png"></a></li>
-                            <li><a href="#"><img src="~/img/linkedin-icon.png"></a></li>
-                            <li><a href="#"><img src="~/img/instagram-icon.png"></a></li>
-                        </ul>
-                    </div>
 
+
+           <div class="footer_section layout_padding">
+                <div class="container-fluid">
+                    <div class="text-center">
+                        <div class="col-md-15 d-flex justify-content-center">
+                            <div class="call_text"><a href="#"><img src="~/img/map-icon.png"><span class="padding_left_0">Page when looking at its layout</span></a></div>
+                            <div class="call_text"><a href="#"><img src="~/img/call-icon.png"><span class="padding_left_0">Call Now  0345678999</span></a></div>
+                            <div class="call_text"><a href="#"><img src="~/img/mail-icon.png"><span class="padding_left_0">Bicycle@gmail.com</span></a></div>
+                            <div class="social_icon">
+                                <ul>
+                                    <li><a href="#"><img src="~/img/fb-icon1.png"></a></li>
+                                    <li><a href="#"><img src="~/img/twitter-icon.png"></a></li>
+                                    <li><a href="#"><img src="~/img/linkedin-icon.png"></a></li>
+                                    <li><a href="#"><img src="~/img/instagram-icon.png"></a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
-            </div>
+           </div>
         </div>
     </div>
     <!-- footer section end -->

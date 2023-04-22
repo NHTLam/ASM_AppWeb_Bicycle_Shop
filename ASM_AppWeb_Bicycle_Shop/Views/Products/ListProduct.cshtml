@@ -59,6 +59,7 @@
         </div>
     </div>
 </div>
+
 <div class="product_section layout_padding">
     <div class="container">
         <div class="row">
@@ -66,27 +67,40 @@
                 <h1 class="product_taital">Our Products</h1>
             </div>
         </div>
-        @foreach(var i in Model)
-        {           
+                
         <div class="product_section_2 layout_padding">
             <div class="row">
-                <div class="col-lg-3 col-sm-6">
-                    <div class="product_box">
-                        <h4 class="bursh_text">@i.ProductName</h4>
-                        <img src="~/a/images/img-1.png" class="image_1">
-                        <div class="btn_main">
-                            <div class="buy_bt">
-                                <ul>
-                                    <li class="active"><a href="~/a/css">Buy Now</a></li>
-                                </ul>
+
+                @foreach (var i in Model)
+                {
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="product_box">
+                            <h4 class="bursh_text">@i.ProductName</h4>
+
+                                <td>
+                                    <img src="@Url.Content("~/UploadImg/" + i.EmpFileName)">
+                                </td>
+
+                            <div class="btn_main">
+                                <div class="buy_bt">
+                                    <ul>
+                                        <li class="active"><a href="~/a/css">Buy Now</a></li>
+                                    </ul>
+
+                                        <li>
+                                            <a class="nav-link text-dark" asp-area="" asp-action="ProductDetails" asp-route-id="@i.ProductId">Detail</a>
+
+                                        </li>
+
+                                </div>
+                                <h3 class="price_text">@i.ProductPrice</h3>
                             </div>
-                            <h3 class="price_text">@i.ProductPrice</h3>
                         </div>
                     </div>
-                </div>
+                }
             </div>
         </div>
-        }
+        
     </div>
 </div>
 

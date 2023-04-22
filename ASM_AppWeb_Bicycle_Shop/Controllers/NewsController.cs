@@ -30,6 +30,14 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
                           Problem("Entity set 'ASM_AppWeb_Bicycle_ShopContext.News'  is null.");
         }
 
+        public async Task<IActionResult> NewsUser()
+        {
+            return _context.News != null ?
+                        View(await _context.News.ToListAsync()) :
+                        Problem("Entity set 'ASM_AppWeb_Bicycle_ShopContext.News'  is null.");
+        }
+
+
         // GET: News/Details/5
         public async Task<IActionResult> Details(int? id)
         {

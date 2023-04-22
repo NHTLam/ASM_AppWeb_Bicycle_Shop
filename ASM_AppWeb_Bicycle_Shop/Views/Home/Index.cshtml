@@ -1,4 +1,5 @@
-﻿@{
+﻿@model IEnumerable<ASM_AppWeb_Bicycle_Shop.Models.News>
+@{
     ViewData["Title"] = "Home Page";
 }
 <!-- banner section start -->
@@ -143,43 +144,40 @@
 </div>
 <!-- about section end -->
 <!-- news section start -->
+
+
 <div class="news_section layout_padding">
     <div class="container">
-        <h1 class="news_taital">News</h1>
-        <p class="news_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using </p>
+        <h1 class="news_taital">News</h1>    
         <div class="news_section_2 layout_padding">
             <div class="row">
-                <div class="col-sm-4">
-                    <div class="box_main_1">
-                        <div class="zoomout frame"><img src="~/img/img-6.png"></div>
-                        <div class="padding_15">
-                            <h2 class="speed_text">Speed cycle</h2>
-                            <div class="post_text">Post by : Den <span style="float: right;">20-12-2019</span></div>
-                            <p class="long_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="box_main_1">
-                        <div class="zoomout frame"><img src="~/img/img-7.png"></div>
-                        <div class="padding_15">
-                            <h2 class="speed_text">Speed cycle</h2>
-                            <div class="post_text">Post by : Den <span style="float: right;">20-12-2019</span></div>
-                            <p class="long_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="box_main_1">
-                        <div class="zoomout frame"><img src="~/img/img-8.png"></div>
-                        <div class="padding_15">
-                            <h2 class="speed_text">Jaump cycle</h2>
-                            <div class="post_text">Post by : Den <span style="float: right;">20-12-2019</span></div>
-                            <p class="long_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+                    @{
+                        var e = 0;
+                    }
+                    @foreach (var i in Model)
+                    {
+                        if (e < 3)
+                        {
+
+
+                            <div class="col-sm-4">
+                                <div class="box_main_1">
+                                    <img src="@Url.Content("~/UploadImg/" + i.EmpFileName)" height="150px" width="100%">
+                                    <div class="padding_15">
+                                        <h2 class="speed_text">@i.NewsTitle</h2>
+                                        <div class="post_text">Author : @i.NewsAuthor <span style="float: right;">@i.NewsDate</span></div>
+
+                                    <p class="long_text">@i.NewsContent</p>
+                                
+                                    </div>
+                                </div>
+                            </div>
+                            e++;
+                        }
+                        else
+                        {
+                            break;
+                        }
+                    }
+               
 </div>

@@ -1,4 +1,5 @@
-﻿using ASM_AppWeb_Bicycle_Shop.Models;
+﻿using ASM_AppWeb_Bicycle_Shop.Data;
+using ASM_AppWeb_Bicycle_Shop.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -6,16 +7,19 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ASM_AppWeb_Bicycle_ShopContext _context;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ASM_AppWeb_Bicycle_ShopContext context)
         {
-            _logger = logger;
+            _context = context;
+            
         }
 
         public IActionResult Index()
         {
-            return View();
+
+            var data = _context.News.ToList();
+            return View(data);
         }
 
         public IActionResult Privacy()
