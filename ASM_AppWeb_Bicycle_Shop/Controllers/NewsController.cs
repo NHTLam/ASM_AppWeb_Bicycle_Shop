@@ -184,7 +184,7 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
             }
 
             return View(news);
-        }
+        }             
 
         // POST: News/Delete/5
         [HttpPost, ActionName("Delete")]
