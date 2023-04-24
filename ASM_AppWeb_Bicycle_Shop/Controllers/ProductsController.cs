@@ -27,8 +27,9 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
             webHostEnvironment = hostEnvironment;
         }
 
-        [Authorize(Roles= "Admin")]
-        // GET: Products
+        // GET: Admin/ManagerProducts/Index
+        [Authorize(Roles = "Admin")]
+        [Route("Admin/ManagerProducts/Index")]
         public async Task<IActionResult> Index()
         {
             var data = await _context.Product.ToListAsync();
@@ -45,25 +46,34 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
                           Problem("Entity set 'ASM_Bicycle_ShopsContext.Product'  is null.");
         }
 
-        [Authorize]
-        public async Task<IActionResult> ListProduct()
+        // GET: Products/ListProduct
+        public async Task<IActionResult> ListProduct(string searchString)
         {
             var data = await _context.Product.ToListAsync();
-            if (data != null & data.Count != 0)
+            if (data == null)
             {
-                ViewBag.mess = "True";
+                return Problem("Entity set 'MvcMovieContext.Movie'  is null.");
+            }
+
+            var product = from m in data
+                          select m;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                product = product.Where(s => s.ProductName!.Contains(searchString));
+                return View(product);
             }
             else
             {
-                ViewBag.mess = "False";
+                return _context.Product != null ?
+                                  View(data) :
+                                  Problem("Entity set 'ASM_Bicycle_ShopsContext.Product'  is null.");
             }
-            return _context.Product != null ?
-                          View(data) :
-                          Problem("Entity set 'ASM_Bicycle_ShopsContext.Product'  is null.");
         }
 
-        [Authorize(Roles = "Admin")]
         // GET: Products/Details/5
+        [Authorize(Roles = "Admin")]
+        [Route("Admin/ManagerProducts/Details/{id}")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Product == null)
@@ -81,7 +91,7 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
             return View(product);
         }
 
-        [Authorize]
+        // GET: Products/ProductDetails/5
         public async Task<IActionResult> ProductDetails(int? id)
         {
             if (id == null || _context.Product == null)
@@ -99,20 +109,20 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
             return View(product);
         }
 
+        // GET: Admin/ManagerProducts/Create
         [Authorize(Roles = "Admin")]
-        // GET: Products/Create
+        [Route("Admin/ManagerProducts/Create")]
         public IActionResult Create()
         {
             ViewBag.category = new SelectList(GetCategory());
             return View();
         }
 
-        // POST: Products/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // POST: Admin/ManagerProducts/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize(Roles = "Admin")]
+        [Route("Admin/ManagerProducts/Create")]
         public async Task<IActionResult> Create([Bind("ProductId,ProductName,ProductPrice,ProductPriceSale,ProductDecription,CategoryName,Status,ImageFile")] Product product)
         {
             string uniqueFileName = null;
@@ -142,8 +152,9 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
             return View(product);
         }
 
-        // GET: Products/Edit/5
+        // GET: Admin/ManagerProducts/Edit/5
         [Authorize(Roles = "Admin")]
+        [Route("Admin/ManagerProducts/Edit/{id}")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Product == null)
@@ -162,11 +173,10 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
         }
 
         // POST: Products/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize(Roles = "Admin")]
+        [Route("Admin/ManagerProducts/Edit/{id}")]
         public async Task<IActionResult> Edit(int id, [Bind("ProductId,ProductName,ProductPrice,ProductPriceSale,ProductDecription,CategoryName,Status,ImageFile")] Product product)
         {
             if (id != product.ProductId)
@@ -216,8 +226,9 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
             return View(product);
         }
 
-        // GET: Products/Delete/5
+        // GET: Admin/ManagerProducts/Delete/5
         [Authorize(Roles = "Admin")]
+        [Route("Admin/ManagerProducts/Delete/{id}")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Product == null)
@@ -236,9 +247,10 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
         }
 
         // POST: Products/Delete/5
-        [Authorize(Roles = "Admin")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
+        [Route("Admin/ManagerProducts/Delete/{id}")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             if (_context.Product == null)
@@ -250,14 +262,14 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
             {
                 _context.Product.Remove(product);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool ProductExists(int id)
         {
-          return (_context.Product?.Any(e => e.ProductId == id)).GetValueOrDefault();
+            return (_context.Product?.Any(e => e.ProductId == id)).GetValueOrDefault();
         }
 
         public List<string> GetCategory()
@@ -270,6 +282,7 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
             }
             return categoryName;
         }
+
         [Authorize(Roles = "Admin")]
         public IActionResult ExportExcel()
         {

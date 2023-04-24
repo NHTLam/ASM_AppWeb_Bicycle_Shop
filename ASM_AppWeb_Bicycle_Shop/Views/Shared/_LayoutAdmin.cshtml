@@ -33,7 +33,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="~/Admin/index">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="~/Admin/Dashboard">
                 <div class="sidebar-brand-icon">
                     <img src="~/img/main_logo.jpg" style="height: 70px">
                 </div>
@@ -45,7 +45,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item">
-                <a class="nav-link" href="~/Admin/index">
+                <a class="nav-link" href="~/Admin/Dashboard">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span>
                 </a>
@@ -69,11 +69,12 @@
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Option</h6>
-                        <a class="collapse-item" href="~/Products/Index">Product Management</a>
-                        <a class="collapse-item" href="~/Products/Create">Add product</a>
-                        <a class="collapse-item" href="~/CategoryProducts/Index">Category Management</a>
-                        <a class="collapse-item" href="~/CategoryProducts/Create">Add product catalog</a>
-                        <a class="collapse-item" href="~/Shops/Index">Store Manager</a>
+                        <a class="collapse-item" href="~/Admin/ManagerProducts/Index">Product Management</a>
+                        <a class="collapse-item" href="~/Admin/ManagerProducts/Create">Add product</a>
+                        <a class="collapse-item" href="~/Admin/Category/Index">Category Management</a>
+                        <a class="collapse-item" href="~/Admin/Category/Create">Add product catalog</a>
+                        <a class="collapse-item" href="~/Admin/StoreManager/Index">Store Manager</a>
+                        <a class="collapse-item" href="~/ManagerNews/Index">Manager News</a>
                     </div>
                 </div>
             </li>
@@ -88,12 +89,14 @@
                 <div id="collapsePages" class="collapse" aria-labelledby="headingPages"
                      data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Login Screens:</h6>
-                        <a class="collapse-item" href="">Login</a>
-                        <a class="collapse-item" href="">Register</a>
+                        <h6 class="collapse-header">Website page</h6>
+                        <a class="collapse-item" href="~/">Home</a>
+                        <a class="collapse-item" href="~/Products/ListProduct">List Products</a>
+                        <a class="collapse-item" href="~/News/Index">News page</a>
                         <h6 class="collapse-header">Other Pages:</h6>
-                        <a class="collapse-item" href="">404 Page</a>
-                        <a class="collapse-item" href="">Blank Page</a>
+                        <a class="collapse-item" href="">Gmail</a>
+                        <a class="collapse-item" href="">Facebook</a>
+                        <a class="collapse-item" href="">Youtube</a>
                     </div>
                 </div>
             </li>
@@ -115,12 +118,12 @@
             </li>
 
             <!-- Nav Item - Tables -->
-            <li class="nav-item">
+@*            <li class="nav-item">
                 <a class="nav-link" href="~/CalendarEvents/index">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Event Management</span>
                 </a>
-            </li>
+            </li>*@
 
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
@@ -146,7 +149,7 @@
                         <i class="fa fa-bars"></i>
                     </button>
 
-                    <!-- Topbar Search -->
+@*                    <!-- Topbar Search -->
                     <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
                         <div class="input-group">
                             <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..."
@@ -157,7 +160,7 @@
                                 </button>
                             </div>
                         </div>
-                    </form>
+                    </form>*@
 
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">

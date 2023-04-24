@@ -12,6 +12,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace ASM_AppWeb_Bicycle_Shop.Controllers
 {
+    [Route("Admin")]
     [Authorize(Roles = "Admin")]
     public class CategoryProductsController : Controller
     {
@@ -22,7 +23,8 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
             _context = context;
         }
 
-        // GET: CategoryProducts
+        // GET: Category/index
+        [Route("Category/Index")]
         public async Task<IActionResult> Index()
         {
               return _context.CategoryProduct != null ? 
@@ -30,7 +32,8 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
                           Problem("Entity set 'ASM_AppWeb_Bicycle_ShopContext.CategoryProduct'  is null.");
         }
 
-        // GET: CategoryProducts/Details/5
+        // GET: Category/Details/5
+        [Route("Category/Details/{id}")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.CategoryProduct == null)
@@ -48,17 +51,17 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
             return View(categoryProduct);
         }
 
-        // GET: CategoryProducts/Create
+        // GET: Category/Create
+        [Route("Category/Create")]
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: CategoryProducts/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // POST: Category/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Route("Category/Create")]
         public async Task<IActionResult> Create([Bind("CategoryProductId,CategoryProductName,CategoryProductDecription")] CategoryProduct categoryProduct)
         {
             if (ModelState.IsValid)
@@ -70,7 +73,8 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
             return View(categoryProduct);
         }
 
-        // GET: CategoryProducts/Edit/5
+        // GET: Category/Edit/5
+        [Route("Category/Edit/{id}")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.CategoryProduct == null)
@@ -87,11 +91,10 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
             return View(categoryProduct);
         }
 
-        // POST: CategoryProducts/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // POST: Category/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Route("Category/Edit/{id}")]
         public async Task<IActionResult> Edit(int id, [Bind("CategoryProductId,CategoryProductName,CategoryProductDecription")] CategoryProduct categoryProduct)
         {
             if (id != categoryProduct.CategoryProductId)
@@ -140,6 +143,7 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
         }
 
         // GET: CategoryProducts/Delete/5
+        [Route("Category/Delete/{id}")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.CategoryProduct == null)
@@ -160,6 +164,7 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
         // POST: CategoryProducts/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Route("Category/Delete/{id}")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             if (_context.CategoryProduct == null)

@@ -3456,6 +3456,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\1848d036-7ad1-4bdd-957d-d71ee231c546_vuong-quoc-anh.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\188d1933-74b7-4c66-8fc9-6f6d3ccaf3eb_R.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ASM_AppWeb_Bicycle_Shop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ASM_AppWeb_Bicycle_Shop</BasePath>
+      <RelativePath>UploadImg/188d1933-74b7-4c66-8fc9-6f6d3ccaf3eb_R.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\188d1933-74b7-4c66-8fc9-6f6d3ccaf3eb_R.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\1ee6bd41-e64a-415b-9e93-8449c1ab50c5_img-2.png))">
       <SourceType>Package</SourceType>
       <SourceId>ASM_AppWeb_Bicycle_Shop</SourceId>
@@ -3488,6 +3504,38 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\24c816b1-083f-45b2-83ab-a7ee08cc49d3_img-2.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\24eeba85-1e38-4ad9-aedf-d4cd3b698334_R.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ASM_AppWeb_Bicycle_Shop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ASM_AppWeb_Bicycle_Shop</BasePath>
+      <RelativePath>UploadImg/24eeba85-1e38-4ad9-aedf-d4cd3b698334_R.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\24eeba85-1e38-4ad9-aedf-d4cd3b698334_R.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\29c00ab5-192a-4071-a0d4-d07e8ebbaf09_img-5.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ASM_AppWeb_Bicycle_Shop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ASM_AppWeb_Bicycle_Shop</BasePath>
+      <RelativePath>UploadImg/29c00ab5-192a-4071-a0d4-d07e8ebbaf09_img-5.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\29c00ab5-192a-4071-a0d4-d07e8ebbaf09_img-5.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\2b05bf57-a623-4349-a899-461927b51ba6_vuong-quoc-anh.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>ASM_AppWeb_Bicycle_Shop</SourceId>
@@ -3519,6 +3567,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\2cc5a622-ee31-40a3-8067-207e1f4c5ef2_R.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\4433aeea-1c32-462b-b15b-be9c8c906b8b_img-3.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ASM_AppWeb_Bicycle_Shop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ASM_AppWeb_Bicycle_Shop</BasePath>
+      <RelativePath>UploadImg/4433aeea-1c32-462b-b15b-be9c8c906b8b_img-3.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\4433aeea-1c32-462b-b15b-be9c8c906b8b_img-3.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\465a59a4-79a1-43da-b9c8-ddc48206a6a3_Xe-dap-Thong-Nhat-MTB-26–05.jpg))">
       <SourceType>Package</SourceType>
@@ -3568,6 +3632,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\5b19e33f-b45a-464d-bf94-5aab78e77847_Xe-dap-Thong-Nhat-MTB-26–05.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\643dc8cf-32c8-4077-9b71-d2ce994c8601_Xe-dap-Thong-Nhat-MTB-26–05.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ASM_AppWeb_Bicycle_Shop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ASM_AppWeb_Bicycle_Shop</BasePath>
+      <RelativePath>UploadImg/643dc8cf-32c8-4077-9b71-d2ce994c8601_Xe-dap-Thong-Nhat-MTB-26–05.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\643dc8cf-32c8-4077-9b71-d2ce994c8601_Xe-dap-Thong-Nhat-MTB-26–05.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\6f2e03fc-fa25-4f5e-b792-d178b6058e7d_OIP.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>ASM_AppWeb_Bicycle_Shop</SourceId>
@@ -3584,6 +3664,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\6f2e03fc-fa25-4f5e-b792-d178b6058e7d_OIP.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\799eef2a-bead-4b89-b192-1d1b32cb2ea2_img-1.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ASM_AppWeb_Bicycle_Shop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ASM_AppWeb_Bicycle_Shop</BasePath>
+      <RelativePath>UploadImg/799eef2a-bead-4b89-b192-1d1b32cb2ea2_img-1.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\799eef2a-bead-4b89-b192-1d1b32cb2ea2_img-1.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\7b69c52e-a1ec-4673-8fe8-c7b9575d3ee4_vuong-quoc-anh.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>ASM_AppWeb_Bicycle_Shop</SourceId>
@@ -3599,6 +3695,70 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\7b69c52e-a1ec-4673-8fe8-c7b9575d3ee4_vuong-quoc-anh.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\7eaea439-d6cc-42f0-a7ce-e274d4d0cf2e_img-3.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ASM_AppWeb_Bicycle_Shop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ASM_AppWeb_Bicycle_Shop</BasePath>
+      <RelativePath>UploadImg/7eaea439-d6cc-42f0-a7ce-e274d4d0cf2e_img-3.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\7eaea439-d6cc-42f0-a7ce-e274d4d0cf2e_img-3.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\816e7c58-b10c-44ce-b72f-9f627cc2b95c_img-4.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ASM_AppWeb_Bicycle_Shop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ASM_AppWeb_Bicycle_Shop</BasePath>
+      <RelativePath>UploadImg/816e7c58-b10c-44ce-b72f-9f627cc2b95c_img-4.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\816e7c58-b10c-44ce-b72f-9f627cc2b95c_img-4.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\9a4ba677-50b2-429b-9c07-a6fac331bc62_img-3.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ASM_AppWeb_Bicycle_Shop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ASM_AppWeb_Bicycle_Shop</BasePath>
+      <RelativePath>UploadImg/9a4ba677-50b2-429b-9c07-a6fac331bc62_img-3.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\9a4ba677-50b2-429b-9c07-a6fac331bc62_img-3.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\a9de7f37-a584-41f6-a5e3-886f60b1df1a_OIP.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ASM_AppWeb_Bicycle_Shop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ASM_AppWeb_Bicycle_Shop</BasePath>
+      <RelativePath>UploadImg/a9de7f37-a584-41f6-a5e3-886f60b1df1a_OIP.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\a9de7f37-a584-41f6-a5e3-886f60b1df1a_OIP.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\b49e29fb-043e-49f5-87c0-6a35514f8c26_vuong-quoc-anh.jpg))">
       <SourceType>Package</SourceType>
@@ -3648,6 +3808,54 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\d883f343-113c-4afd-bfb6-5b067398509e_vuong-quoc-anh.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\d9b8a4a0-6531-4439-9781-eb94cb33ec87_R.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ASM_AppWeb_Bicycle_Shop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ASM_AppWeb_Bicycle_Shop</BasePath>
+      <RelativePath>UploadImg/d9b8a4a0-6531-4439-9781-eb94cb33ec87_R.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\d9b8a4a0-6531-4439-9781-eb94cb33ec87_R.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\df8875dc-5565-4201-b6f9-e5d3dd5fd366_Xe-dap-Thong-Nhat-MTB-26–05.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ASM_AppWeb_Bicycle_Shop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ASM_AppWeb_Bicycle_Shop</BasePath>
+      <RelativePath>UploadImg/df8875dc-5565-4201-b6f9-e5d3dd5fd366_Xe-dap-Thong-Nhat-MTB-26–05.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\df8875dc-5565-4201-b6f9-e5d3dd5fd366_Xe-dap-Thong-Nhat-MTB-26–05.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\e60d0a25-6fe0-492b-9888-fd6917f4dc83_Xe-dap-Thong-Nhat-MTB-26–05.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ASM_AppWeb_Bicycle_Shop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ASM_AppWeb_Bicycle_Shop</BasePath>
+      <RelativePath>UploadImg/e60d0a25-6fe0-492b-9888-fd6917f4dc83_Xe-dap-Thong-Nhat-MTB-26–05.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\e60d0a25-6fe0-492b-9888-fd6917f4dc83_Xe-dap-Thong-Nhat-MTB-26–05.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\e78018ca-3b12-4f33-956e-c8303885ce67_img-2.png))">
       <SourceType>Package</SourceType>
       <SourceId>ASM_AppWeb_Bicycle_Shop</SourceId>
@@ -3679,6 +3887,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\e8198dd3-bcc7-474b-9516-a0c128903129_vuong-quoc-anh.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\fda2cdfd-d300-49e6-9021-57a781540946_img-5.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ASM_AppWeb_Bicycle_Shop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ASM_AppWeb_Bicycle_Shop</BasePath>
+      <RelativePath>UploadImg/fda2cdfd-d300-49e6-9021-57a781540946_img-5.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UploadImg\fda2cdfd-d300-49e6-9021-57a781540946_img-5.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vendor\bootstrap\js\bootstrap.bundle.js))">
       <SourceType>Package</SourceType>

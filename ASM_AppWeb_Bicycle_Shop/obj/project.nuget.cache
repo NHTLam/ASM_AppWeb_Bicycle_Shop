@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZlkJ/YDvCrfIZpuOUWne5dXslXA29yd7k0G0TcvZ+/Z+kOj0Otn3wQgX9nIz5PdnzUBbcGzlcrN+Q00UQyWq/A==",
+  "dgSpecHash": "N7RUK3CEBuehQwHbuNVUPotToJ26j67GF+hxRCXXbV2Yd7PWB6BLOvvexbzu4YhS3LbBWhmF69j1R0gxi8+DFQ==",
   "success": true,
-  "projectFilePath": "G:\\PROG\\Application Development\\Asm_code_webApp\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop.csproj",
+  "projectFilePath": "G:\\PROG\\Application Development\\Backup\\ASM_AppWeb_Bicycle_Shop-Save-point\\ASM_AppWeb_Bicycle_Shop\\ASM_AppWeb_Bicycle_Shop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

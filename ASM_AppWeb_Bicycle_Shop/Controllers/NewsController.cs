@@ -9,6 +9,8 @@ using ASM_AppWeb_Bicycle_Shop.Data;
 using ASM_AppWeb_Bicycle_Shop.Models;
 using Microsoft.AspNetCore.Hosting;
 using ASM_Bicycle_Shops.Models;
+using ASM_AppWeb_Bicycle_Shop.Constants;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ASM_AppWeb_Bicycle_Shop.Controllers
 {
@@ -22,15 +24,27 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
             webHostEnvironment = hostEnvironment;
         }
 
-        // GET: News
+        // GET: ManagerNews/Index
+        [Authorize(Roles = "Admin,Staff")]
+        [Route("ManagerNews/Index")]
         public async Task<IActionResult> Index()
         {
-              return _context.News != null ? 
-                          View(await _context.News.ToListAsync()) :
-                          Problem("Entity set 'ASM_AppWeb_Bicycle_ShopContext.News'  is null.");
+            return _context.News != null ?
+                        View(await _context.News.ToListAsync()) :
+                        Problem("Entity set 'ASM_AppWeb_Bicycle_ShopContext.News'  is null.");
+        }
+
+        // GET: News/Index
+        [Route("News/Index")]
+        public async Task<IActionResult> NewsUser()
+        {
+            return _context.News != null ?
+                        View(await _context.News.ToListAsync()) :
+                        Problem("Entity set 'ASM_AppWeb_Bicycle_ShopContext.News'  is null.");
         }
 
         // GET: News/Details/5
+        [Route("News/Details/{id}")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.News == null)
@@ -48,17 +62,19 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
             return View(news);
         }
 
-        // GET: News/Create
+        // GET: ManagerNews/Create
+        [Authorize(Roles = "Admin,Staff")]
+        [Route("ManagerNews/Create")]
         public IActionResult Create()
         {
             return View();
         }
 
         // POST: News/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin,Staff")]
+        [Route("ManagerNews/Create")]
         public async Task<IActionResult> Create([Bind("NewsId,NewsTitle,NewsAuthor,NewsContent,NewsDate,EmpPhotoPath,ImageFile")] News news)
         {
             string uniqueFileName = null;
@@ -90,7 +106,9 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
             return View(news);
         }
 
-        // GET: News/Edit/5
+        // GET: ManagerNews/Edit/5
+        [Authorize(Roles = "Admin,Staff")]
+        [Route("ManagerNews/Edit/{id}")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.News == null)
@@ -106,11 +124,11 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
             return View(news);
         }
 
-        // POST: News/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // POST: ManagerNews/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin,Staff")]
+        [Route("ManagerNews/Edit/{id}")]
         public async Task<IActionResult> Edit(int id, [Bind("NewsId,NewsTitle,NewsAuthor,NewsContent,NewsDate,EmpPhotoPath,ImageFile")] News news)
         {
             if (id != news.NewsId)
@@ -160,7 +178,9 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
             return View(news);
         }
 
-        // GET: News/Delete/5
+        // GET: ManagerNews/Delete/5
+        [Authorize(Roles = "Admin,Staff")]
+        [Route("ManagerNews/Delete/{id}")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.News == null)
@@ -178,9 +198,11 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
             return View(news);
         }
 
-        // POST: News/Delete/5
+        // POST: ManagerNews/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin,Staff")]
+        [Route("ManagerNews/Delete/{id}")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             if (_context.News == null)
@@ -192,14 +214,14 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
             {
                 _context.News.Remove(news);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool NewsExists(int id)
         {
-          return (_context.News?.Any(e => e.NewsId == id)).GetValueOrDefault();
+            return (_context.News?.Any(e => e.NewsId == id)).GetValueOrDefault();
         }
     }
 }

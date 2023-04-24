@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace ASM_AppWeb_Bicycle_Shop.Controllers
 {
+    [Route("Admin")]
     [Authorize(Roles ="Admin")]
     public class ShopsController : Controller
     {
@@ -21,37 +22,42 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
             _context = context;
         }
 
-        // GET: Shops
+        // GET: Admin/StoreManager/Index
+        [Route("StoreManager/Index")]
         public async Task<IActionResult> Index()
         {
-              return _context.Shop != null ? 
+            var data = await _context.Shop.ToListAsync();
+            if (data != null & data.Count != 0)
+            {
+                ViewBag.mess = "True";
+            }
+            else
+            {
+                ViewBag.mess = "False";
+            }
+            return _context.Shop != null ? 
                           View(await _context.Shop.ToListAsync()) :
                           Problem("Entity set 'ASM_AppWeb_Bicycle_ShopContext.Shop'  is null.");
-        }
-
-        // GET: Shops/Create
-        public IActionResult Create()
-        {
-            return View();
         }
 
         // POST: Shops/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,ProductName,ProductPrice,Quantity,CustomerName,Purchase_date,TotalRevenue")] Shop shop)
-        {
-            if (ModelState.IsValid)
-            {
-                _context.Add(shop);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(shop);
-        }
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public async Task<IActionResult> Create([Bind("Id,ProductName,ProductPrice,Quantity,CustomerName,Purchase_date,TotalRevenue")] Shop shop)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        _context.Add(shop);
+        //        await _context.SaveChangesAsync();
+        //        return RedirectToAction(nameof(Index));
+        //    }
+        //    return View(shop);
+        //}
 
-        // GET: Shops/Edit/5
+        // GET: Admin/StoreManager/Edit/5
+        [Route("StoreManager/Edit/{id}")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Shop == null)
@@ -67,11 +73,10 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
             return View(shop);
         }
 
-        // POST: Shops/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // POST: Admin/StoreManager/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Route("StoreManager/Edit/{id}")]
         public async Task<IActionResult> Edit(int id, [Bind("Id,ProductName,ProductPrice,Quantity,CustomerName,Purchase_date,TotalRevenue")] Shop shop)
         {
             if (id != shop.Id)
@@ -102,7 +107,8 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
             return View(shop);
         }
 
-        // GET: Shops/Delete/5
+        // GET: Admin/StoreManager/Delete/5
+        [Route("StoreManager/Delete/{id}")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Shop == null)
@@ -120,9 +126,10 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
             return View(shop);
         }
 
-        // POST: Shops/Delete/5
+        // POST: Admin/StoreManager/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Route("StoreManager/Delete/{id}")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             if (_context.Shop == null)

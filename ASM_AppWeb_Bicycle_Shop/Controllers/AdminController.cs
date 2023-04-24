@@ -1,10 +1,13 @@
 ﻿using ASM_AppWeb_Bicycle_Shop.Data;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Html;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace ASM_AppWeb_Bicycle_Shop.Controllers
 {
+    [Route("Admin")]
     [Authorize(Roles ="Admin")]
     public class AdminController : Controller
     {
@@ -14,24 +17,23 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
         {
             _context = context;
         }
-        // GET: AdminController
+
+        // GET: /Admin/Dashboard
+        [Route("Dashboard")]
         public ActionResult Index()
         {
             ViewBag.monthlyRevenue = GetMonthlyRevenue();
             ViewBag.earningAnnual = GetEarningAnnual();
+            ViewBag.dataj = new HtmlString(createDataBar());
             return View();
         }
 
+        //Get: /Admin/StatisticalReport
+        [Route("StatisticalReport")]
         public ActionResult StatisticalReport()
         {
+            ViewBag.dataj = new HtmlString(createDataBar());
             return View();
-        }
-
-        [HttpGet]
-        public async Task<ActionResult> GetData()
-        {
-            var data = DatForChart();
-            return Json(data);
         }
 
         private decimal GetMonthlyRevenue()
@@ -60,6 +62,29 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
                 }
             }
             return sum;
+        }
+
+        private string createDataBar()
+        {
+            var value = DatForChart();
+
+            List<object> data = new List<object>(12);
+            data.Add(new object[] { "Months", "Earnings" });
+            data.Add(new object[] { "January", value[0] });
+            data.Add(new object[] { "February", value[1] });
+            data.Add(new object[] { "March", value[2] });
+            data.Add(new object[] { "April", value[3] });
+            data.Add(new object[] { "May", value[4] });
+            data.Add(new object[] { "June", value[5] });
+            data.Add(new object[] { "July", value[6] });
+            data.Add(new object[] { "August", value[7] });
+            data.Add(new object[] { "September", value[8] });
+            data.Add(new object[] { "October", value[9] });
+            data.Add(new object[] { "November", value[10] });
+            data.Add(new object[] { "December", value[11] });
+
+            string datastr = JsonConvert.SerializeObject(data, Formatting.None);
+            return datastr;
         }
 
         private List<decimal> DatForChart()

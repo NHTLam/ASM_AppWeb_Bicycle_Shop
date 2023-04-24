@@ -4,9 +4,12 @@ using ASM_AppWeb_Bicycle_Shop.Models;
 using ASM_Bicycle_Shops.Models;
 using Microsoft.AspNetCore.Mvc;
 using ASM_AppWeb_Bicycle_Shop.Data;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http.HttpResults;
 
 namespace ASM_AppWeb_Bicycle_Shop.Controllers
 {
+    [Authorize]
     public class CartController : Controller
     {
         private readonly ASM_AppWeb_Bicycle_ShopContext _context;
@@ -107,6 +110,28 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
             HttpContext.Session.Remove("Cart");
 
             return RedirectToAction("Index");
+        }
+
+        public async Task<IActionResult> CheckOut()
+        {
+            var name = User.Identity.Name;
+            List<CartItem> cart = HttpContext.Session.GetJson<List<CartItem>>("Cart");
+            foreach(CartItem item in cart)
+            {
+                Shop createData = new Shop();
+                createData.ProductName = item.ProductName;
+                createData.ProductPrice = item.Price;
+                createData.Quantity = item.Quantity;
+                createData.CustomerName = name;
+                createData.Purchase_date = DateTime.Now;
+                if (ModelState.IsValid)
+                {
+                    _context.Add(createData);
+                    await _context.SaveChangesAsync();
+                    return View();
+                }
+            }
+            return View();
         }
     }
 }
