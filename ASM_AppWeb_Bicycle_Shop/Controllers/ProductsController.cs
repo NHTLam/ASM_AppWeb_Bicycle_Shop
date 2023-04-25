@@ -289,7 +289,7 @@ namespace ASM_AppWeb_Bicycle_Shop.Controllers
             }
             return RedirectToAction(nameof(Index));
         }
-        //hdhdhdddddddddddddddfggfgfgfgfgfgffgggffgggfhfhfhgffggfgffg
+        //hdhdhdddddddddddddddfggfgfgfgfgfgffgggffgggfhfhfhgffggfgffgfdfdfdf
         public DataTable ToConvertDataTable<T>(List<T> items)
         {
             DataTable dt = new DataTable(typeof(T).Name);
